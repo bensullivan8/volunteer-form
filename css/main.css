@@ -24,3 +24,7 @@ textarea {
   border: 2px solid;
   border-color: #6e8c62;
 }
+
+textarea {
+  height: 10rem;
+}
