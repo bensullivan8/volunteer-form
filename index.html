@@ -14,15 +14,13 @@
   <section class="contact">
     <div class="wrapper">
       <form class="push-0" method="POST" action="https://formspree.io/sull0249@algonquinlive.com">
-        <div class="header push">
+        <header class="header push">
           <h1 class="pad-t-1-2">Apply to be a tree planter</h1>
           <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-        </div>
+        </header>
         <div class="content island-1-2">
           <fieldset>
-            <div class="grid">
-              <h2 class="unit">Personal details</h2>
-            </div>
+            <legend class="exa">Personal details</legend>
 
             <div class="grid">
               <div class="push unit xs-1 m-1 l-1-2">
@@ -39,7 +37,7 @@
             </div>
             <div class="push unit xs-1 m-1 l-1-2">
               <label for="date">Date of birth</label>
-              <input type="date" name="date" required>
+              <input type="date" name="date" id="date" required>
             </div>
 
             <div class="push unit xs-1 m-1 l-1-2">
@@ -67,7 +65,7 @@
 
               <div class="push unit xs-1 m-1 l-1-2">
                 <label for="number">Phone number <em class="option">(optional)</em></label>
-                <input type="tel" id="number" name="number"></input>
+                <input type="tel" id="number" name="number">
               </div>
             </div>
 
@@ -157,7 +155,6 @@
                 </fieldset>
               </div>
 
-
               <div class="push unit xs-1 m-1 l-1-2">
                 <fieldset>
                   <legend>Do you have any experience with the following?</legend>
@@ -213,62 +210,63 @@
 
                 </fieldset>
               </div>
+            </div>
 
+            <div class="push unit xs-1 m-1 l-1-2">
 
+              <fieldset>
+                <legend class="pad-b-1-2">Do you have a valid drivers license?</legend>
+                <div>
+                  <input type="radio" id="yes" name="license">
+                  <label for="yes">Yes</label>
+
+                  <input type="radio" id="no" name="license">
+                  <label for="no">No</label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend class="pad-b-1-2">Do you have a pick-up truck you'd be willing to use?</legend>
+                <div>
+                  <input type="radio" id="yes2" name="truck">
+                  <label for="yes2">Yes</label>
+
+                  <input type="radio" id="no2" name="truck">
+                  <label for="no2">No</label>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend class="pad-b-1-2">Do you have up-to-date first-aid certification?</legend>
+                <div>
+                  <input type="radio" id="yes3" name="first-aid">
+                  <label for="yes3">Yes</label>
+
+                  <input type="radio" id="no3" name="first-aid">
+                  <label for="no3">No</label>
+                </div>
+              </fieldset>
+
+            </div>
+
+            <div class="grid">
               <div class="push unit xs-1 m-1 l-1-2">
-                <fieldset>
-                  <div class="push">
-                    <legend class="pad-b-1-2">Do you have a valid drivers license?</legend>
-                    <div>
-                      <input type="radio" id="yes">
-                      <label for="yes">Yes</label>
-
-                      <input type="radio" id="no">
-                      <label for="no">No</label>
-                    </div>
-                  </div>
-
-                  <div class="push">
-                    <legend class="pad-b-1-2">Do you have a pick-up truck you'd be willing to use?</legend>
-                    <div>
-                      <input type="radio" id="yes">
-                      <label for="yes">Yes</label>
-
-                      <input type="radio" id="no">
-                      <label for="no">No</label>
-                    </div>
-                  </div>
-
-                  <div class="push">
-                    <legend class="pad-b-1-2">Do you have up-to-date first-aid certification?</legend>
-                    <div>
-                      <input type="radio" id="yes">
-                      <label for="yes">Yes</label>
-
-                      <input type="radio" id="no">
-                      <label for="no">No</label>
-                    </div>
-                  </div>
-
-                </fieldset>
+                <label for="comments">Please let us know any comments or questions you may have. <em class="option">(optional)</em></label>
+                <textarea id="comments" name="comments"></textarea>
               </div>
 
-              <div class="grid">
-                <div class="push unit xs-1 m-1 l-1-2">
-                  <label for="comments">Please let us know any comments or questions you may have. <em class="option">(optional)</em></label>
-                  <textarea id="comments" name="comments"></textarea>
-                </div>
-
-                <div>
-                  <button class="btn mega" type="submit">Apply</button>
-                </div>
-
+              <div>
+                <button class="btn mega" type="submit">Apply</button>
+              </div>
+            </div>
+          </fieldset>
         </div>
 
       </form>
 
     </div>
   </section>
+  <footer class="unit island">© Tree Hugger International Organization</footer>
 </body>
-<footer class="unit island">© Tree Hugger International Organization</footer>
+
 </html>

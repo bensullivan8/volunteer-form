@@ -1,24 +1,26 @@
 html {
   font-family: "Noto Serif", serif;
-
 }
 
 .header {
   background-color: #70ad55;
   color: #fff;
-  padding: .5rem;
   width: 100%;
 }
 
 footer {
   background-color: #70ad55;
   color: #fff;
+  width: 100%;
 }
 
 .option {
   color: #70ad55;
 }
 
-footer {
-  width: 100%;
+input,
+select,
+textarea {
+  border: 2px solid;
+  border-color: #6e8c62;
 }
