@@ -28,3 +28,13 @@ textarea {
 textarea {
   height: 10rem;
 }
+
+hr {
+  border-color: #70ad55;
+  opacity: .3;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border: solid 2px #6e8c62;
+}
